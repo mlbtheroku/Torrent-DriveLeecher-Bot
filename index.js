@@ -67,7 +67,7 @@ bot.onText(command.start, async (msg) => {
     const opts = {
         reply_markup: {
             inline_keyboard: [
-                [{text: "Join Channel", url: "https://t.me/sub2use"}],
+                [{text: "Join Channel", url: "https://t.me/h2dts"}],
             ],
         },parse_mode: "HTML",
     };
@@ -79,7 +79,7 @@ It mostly happen Due To Server overload And restart Hope You Can understand 😁
 
 check /help Command For more information
 `;
-    // await sendmsg("Just A Useless Command\nJoin @aryan_bots For Useless Updates😒 ", msg, bot);
+    // await sendmsg("Just A Useless Command\nJoin @h2dts For Useless Updates😒 ", msg, bot);
     await bot.sendMessage(msg.chat.id, Startmsg, opts);
     console.log(DownloadList);
     
@@ -401,12 +401,12 @@ const sendJoinChannel = async (msg) => {
     const opts = {
         reply_markup: {
             inline_keyboard: [
-                [{text: "Join Channel", url: "https://t.me/subtouse"}],
+                [{text: "Join Channel", url: "https://t.me/h2dts"}],
             ],
         },
     };
 
-    // await sendmsg("Just A Useless Command\nJoin @aryan_bots For Useless Updates😒 ", msg, bot);
+    // await sendmsg("Just A Useless Command\nJoin @h2dts For Useless Updates😒 ", msg, bot);
     await bot.sendMessage(msg.chat.id, "Join Channel To access Bot", opts);
 };
 
