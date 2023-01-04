@@ -382,7 +382,7 @@ bot.onText(command.removeTD, async (msg) => {
 
 const userinChannel = async (msg) => {
     try {
-        let user = await bot.getChatMember("@aryan_bots", msg.from.id);
+        let user = await bot.getChatMember("@h2dts", msg.from.id);
 
         if (user.status === "member" || user.status === "administrator") {
             console.log(user.status, msg.from.id);
