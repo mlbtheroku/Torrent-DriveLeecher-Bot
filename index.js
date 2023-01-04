@@ -401,7 +401,7 @@ const sendJoinChannel = async (msg) => {
     const opts = {
         reply_markup: {
             inline_keyboard: [
-                [{text: "Join Channel", url: "https://t.me/aryan_bots"}],
+                [{text: "Join Channel", url: "https://t.me/subtouse"}],
             ],
         },
     };
